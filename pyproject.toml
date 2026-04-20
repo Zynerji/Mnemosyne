@@ -6,6 +6,7 @@ build-backend = "hatchling.build"
 name = "mnemosyne"
 version = "0.1.0"
 description = "DKG-native concept-mining paranet — deterministic Knowledge Assets with SPARQL-queryable RDF store and OriginTrail DKG anchor client"
+readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Christian Knopp" }]
 requires-python = ">=3.11"
