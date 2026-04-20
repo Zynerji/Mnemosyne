@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "mnemosyne"
+name = "mnemosyne-dkg"
 version = "0.1.0"
 description = "DKG-native concept-mining paranet — deterministic Knowledge Assets with SPARQL-queryable RDF store and OriginTrail DKG anchor client"
 readme = "README.md"

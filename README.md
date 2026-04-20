@@ -49,18 +49,18 @@ The library is intentionally small. The core (Triple → Merkle → KnowledgeAss
 
 ```bash
 # Core only (stdlib — Triple, Merkle, KnowledgeAsset, Paranet)
-pip install git+https://github.com/Zynerji/Mnemosyne
+pip install mnemosyne-dkg
 
 # Core + SPARQL + JSON-LD/N-Quads codecs
-pip install "mnemosyne[rdf] @ git+https://github.com/Zynerji/Mnemosyne"
+pip install "mnemosyne-dkg[rdf]"
 
 # Core + everything needed to anchor against a live DKG node
-pip install "mnemosyne[dkg] @ git+https://github.com/Zynerji/Mnemosyne"
+pip install "mnemosyne-dkg[dkg]"
 ```
 
 Requires Python 3.11+. Tested on 3.11, 3.12, 3.13, 3.14.
 
-> Mnemosyne is not yet published to PyPI. A `pip install mnemosyne` target will land with v0.2.
+> The PyPI distribution is `mnemosyne-dkg` (the plain `mnemosyne` name on PyPI belongs to an unrelated placeholder project). The Python import name is unchanged — `import mnemosyne` as always.
 
 ---
 
